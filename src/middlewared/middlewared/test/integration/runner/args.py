@@ -167,7 +167,7 @@ def parse(args: list[str] | None = None) -> RunArgs:
     output.add_argument(
         "--log-cli-level",
         dest="log_cli_level",
-        default=None,
+        default="DEBUG",
         metavar="LEVEL",
         help="log level for pytest live CLI logging (e.g. DEBUG)",
     )
